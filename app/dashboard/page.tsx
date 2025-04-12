@@ -154,20 +154,6 @@ export default function Dashboard() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.2 }}
-          >
-            <DashboardCard
-              title="Register DID"
-              icon={FileKey}
-              href="/register-did"
-              description="Create or update your decentralized identifier"
-              gradient="bg-gradient-to-r from-violet-500 to-purple-500"
-            />
-          </motion.div>
-
-          <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.3 }}
