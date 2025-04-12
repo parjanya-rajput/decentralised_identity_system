@@ -30,33 +30,28 @@ This dApp enables users to create and manage their decentralized identities with
 
 ## Screenshots
 
-### Homepage & Identity Management
-![Homepage](1.png)
-![Dashboard](2.png)
-![Identity Registration](3.png)
+![Homepage](images/1.png)
+![Dashboard](images/2.png)
+![Identity Registration](images/3.png)
 
-### Biometric Setup
-![Biometric Setup](4.png)
-![Biometric Configuration](5.png)
-![Authentication Process](6.png)
+![Biometric Setup](images/4.png)
+![Biometric Configuration](images/5.png)
+![Authentication Process](images/6.png)
 
-### Credential Management
-![Credentials Dashboard](7.png)
-![Credential Issuance](8.png)
-![Verification Process](9.png)
+![Credentials Dashboard](images/7.png)
+![Credential Issuance](images/8.png)
+![Verification Process](images/9.png)
 
-### Access Control
-![Access Logs](10.png)
-![Consent Management](11.png)
-![Security Features](12.png)
+![Access Logs](images/10.png)
+![Consent Management](images/15.png)
+![Security Features](images/16.png)
 
-### Additional Features
-![Feature 1](13.png)
-![Feature 2](14.png)
-![Feature 3](15.png)
+![Feature 1](images/13.png)
+![Feature 2](images/14.png)
 
 ### Etherscan Integration
-![Etherscan Verification](16.png)
+![Etherscan Verification](images/11.png)
+![Etherscan Verification](images/12.png)
 
 ## Setup Instructions
 
@@ -73,7 +68,8 @@ pnpm install
 
 3. Create .env file in root directory with:
 ```
-NEXT_PUBLIC_DID_REGISTRY_ADDRESS=0x5c5D3db374795C7869F440FF2B90a10848923c07```
+NEXT_PUBLIC_DID_REGISTRY_ADDRESS=0x5c5D3db374795C7869F440FF2B90a10848923c07
+```
 
 4. Run the Development Server
 ``` pnpm run dev ```
